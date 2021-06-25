@@ -1,0 +1,328 @@
+Uri: https://check.ddos-guard.net/check.js
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\check.js
+Content Type: application/javascript
+
+Uri: https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&subset=latin,cyrillic
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\css2
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9vAw.ttf
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\s\roboto\v27\KFOlCnqEu92Fr1MmEU9vAw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5vAw.ttf
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\s\roboto\v27\KFOlCnqEu92Fr1MmSU5vAw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlvAw.ttf
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\s\roboto\v27\KFOlCnqEu92Fr1MmWUlvAw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Me5Q.ttf
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\s\roboto\v27\KFOmCnqEu92Fr1Me5Q.ttf
+Content Type: font/ttf
+
+Uri: https://VseYadCraft.net/
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\index.htm
+Content Type: text/html
+
+Uri: https://VseYadCraft.net/constitution
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\constitution.html
+Content Type: text/html
+
+Uri: https://VseYadCraft.net/coreprotect
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\coreprotect.html
+Content Type: text/html
+
+Uri: https://VseYadCraft.net/court
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\court.html
+Content Type: text/html
+
+Uri: https://VseYadCraft.net/forplayers
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\forplayers.html
+Content Type: text/html
+
+Uri: https://VseYadCraft.net/guide
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\guide.html
+Content Type: text/html
+
+Uri: https://VseYadCraft.net/rules
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\rules.html
+Content Type: text/html
+
+Uri: https://VseYadCraft.net/sponsors
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\sponsors.html
+Content Type: text/html
+
+Uri: https://VseYadCraft.net/tilda-blocks-2.14.css?t=1622575259
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tilda-blocks-2.14-4.css
+Content Type: text/css
+
+Uri: https://VseYadCraft.net/tilda-blocks-2.14.css?t=1622700705
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tilda-blocks-2.14-5.css
+Content Type: text/css
+
+Uri: https://VseYadCraft.net/tilda-blocks-2.14.css?t=1622982941
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tilda-blocks-2.14.css
+Content Type: text/css
+
+Uri: https://VseYadCraft.net/tilda-blocks-2.14.css?t=1623170466
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tilda-blocks-2.14-2.css
+Content Type: text/css
+
+Uri: https://VseYadCraft.net/tilda-blocks-2.14.css?t=1623916860
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tilda-blocks-2.14-3.css
+Content Type: text/css
+
+Uri: https://VseYadCraft.net/tilda-blocks-2.14.css?t=1624094892
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tilda-blocks-2.14-1.css
+Content Type: text/css
+
+Uri: https://VseYadCraft.net/tilda-blocks-2.7.js?t=1622575259
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tilda-blocks-2.7-4.js
+Content Type: application/javascript
+
+Uri: https://VseYadCraft.net/tilda-blocks-2.7.js?t=1622700705
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tilda-blocks-2.7-5.js
+Content Type: application/javascript
+
+Uri: https://VseYadCraft.net/tilda-blocks-2.7.js?t=1622982941
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tilda-blocks-2.7.js
+Content Type: application/javascript
+
+Uri: https://VseYadCraft.net/tilda-blocks-2.7.js?t=1623170466
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tilda-blocks-2.7-2.js
+Content Type: application/javascript
+
+Uri: https://VseYadCraft.net/tilda-blocks-2.7.js?t=1623916860
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tilda-blocks-2.7-3.js
+Content Type: application/javascript
+
+Uri: https://VseYadCraft.net/tilda-blocks-2.7.js?t=1624094892
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tilda-blocks-2.7-1.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.com/css/tilda-animation-1.0.min.css
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\css\tilda-animation-1.0.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.com/css/tilda-carousel-1.0.min.css
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\css\tilda-carousel-1.0.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.com/css/tilda-cover-1.0.min.css
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\css\tilda-cover-1.0.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.com/css/tilda-forms-1.0.min.css
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\css\tilda-forms-1.0.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.com/css/tilda-grid-3.0.min.css
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\css\tilda-grid-3.0.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.com/css/tilda-menusub-1.0.min.css
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\css\tilda-menusub-1.0.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.com/css/tilda-slds-1.4.min.css
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\css\tilda-slds-1.4.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.com/css/tilda-zoom-2.0.min.css
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\css\tilda-zoom-2.0.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.com/js/hammer.min.js
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\js\hammer.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.com/js/jquery-1.10.2.min.js
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\js\jquery-1.10.2.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.com/js/lazyload-1.3.min.js
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\js\lazyload-1.3.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.com/js/tilda-animation-1.0.min.js
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\js\tilda-animation-1.0.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.com/js/tilda-cover-1.0.min.js
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\js\tilda-cover-1.0.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.com/js/tilda-events-1.0.min.js
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\js\tilda-events-1.0.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.com/js/tilda-menusub-1.0.min.js
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\js\tilda-menusub-1.0.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.com/js/tilda-scripts-3.0.min.js
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\js\tilda-scripts-3.0.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.com/js/tilda-slds-1.4.min.js
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\js\tilda-slds-1.4.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.com/js/tilda-zoom-2.0.min.js
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\js\tilda-zoom-2.0.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.com/tild3064-6165-4232-b939-373531663839/Home.svg
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild3064-6165-4232-b939-373531663839\Home.svg
+Content Type: image/svg+xml
+
+Uri: https://static.tildacdn.com/tild3136-3162-4262-b939-373630663533/-/resizeb/20x/waving-hand-sign_1f4.png
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild3136-3162-4262-b939-373630663533\-\resizeb\20x\waving-hand-sign_1f4.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild3231-6237-4964-b832-313266393533/-/resizeb/20x/2021-06-01_235826.png
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild3231-6237-4964-b832-313266393533\-\resizeb\20x\2021-06-01_235826.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild3232-6235-4430-b930-323863326461/Frame_1_2.svg
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild3232-6235-4430-b930-323863326461\Frame_1_2.svg
+Content Type: image/svg+xml
+
+Uri: https://static.tildacdn.com/tild3236-3338-4137-b265-643461623464/Frame_1_2.svg
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild3236-3338-4137-b265-643461623464\Frame_1_2.svg
+Content Type: image/svg+xml
+
+Uri: https://static.tildacdn.com/tild3334-3066-4264-b833-353331343439/Frame_1_2.svg
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild3334-3066-4264-b833-353331343439\Frame_1_2.svg
+Content Type: image/svg+xml
+
+Uri: https://static.tildacdn.com/tild3338-3532-4063-b438-346235646231/-/resizeb/20x/2021-05-12_230554.png
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild3338-3532-4063-b438-346235646231\-\resizeb\20x\2021-05-12_230554.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild3366-3139-4564-b736-366332646635/-/resizeb/20x/rocket_1f680.png
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild3366-3139-4564-b736-366332646635\-\resizeb\20x\rocket_1f680.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild3465-3862-4161-b735-313535393136/-/resizeb/20x/2021-05-12_230607.png
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild3465-3862-4161-b735-313535393136\-\resizeb\20x\2021-05-12_230607.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild3534-3337-4564-a363-663362623136/Frame_1_2.svg
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild3534-3337-4564-a363-663362623136\Frame_1_2.svg
+Content Type: image/svg+xml
+
+Uri: https://static.tildacdn.com/tild3564-3666-4937-b633-316336323162/Frame_1_2.svg
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild3564-3666-4937-b633-316336323162\Frame_1_2.svg
+Content Type: image/svg+xml
+
+Uri: https://static.tildacdn.com/tild3564-6434-4231-b063-333664376639/-/resizeb/20x/215673896407758.png
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild3564-6434-4231-b063-333664376639\-\resizeb\20x\215673896407758.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild3565-3233-4336-b266-646161666130/-/resizeb/20x/2021-05-12_230910.png
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild3565-3233-4336-b266-646161666130\-\resizeb\20x\2021-05-12_230910.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild3566-3162-4937-a338-386434656466/-/resizeb/20x/video-game_1f3ae.png
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild3566-3162-4937-a338-386434656466\-\resizeb\20x\video-game_1f3ae.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild3733-3133-4163-b862-633733303166/-/resizeb/20x/photo_2021-04-06_19-.jpg
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild3733-3133-4163-b862-633733303166\-\resizeb\20x\photo_2021-04-06_19-.jpg
+Content Type: image/jpeg
+
+Uri: https://static.tildacdn.com/tild3734-3965-4030-b463-663366396161/-/empty/image.png
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild3734-3965-4030-b463-663366396161\-\empty\image.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild3738-3832-4365-b432-633738373665/-/resizeb/20x/2021-05-12_231108.png
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild3738-3832-4365-b432-633738373665\-\resizeb\20x\2021-05-12_231108.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild3765-3237-4738-b538-323037663539/-/resizeb/20x/2021-05-12_230638.png
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild3765-3237-4738-b538-323037663539\-\resizeb\20x\2021-05-12_230638.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild3835-3439-4361-b239-656536353862/-/resizeb/20x/2021-05-12_230754.png
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild3835-3439-4361-b239-656536353862\-\resizeb\20x\2021-05-12_230754.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild3838-3335-4265-a162-623164663966/-/resizeb/20x/2021-05-12_230824.png
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild3838-3335-4265-a162-623164663966\-\resizeb\20x\2021-05-12_230824.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild3865-6239-4365-b430-323261633832/-/resizeb/20x/love-letter_1f48c.png
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild3865-6239-4365-b430-323261633832\-\resizeb\20x\love-letter_1f48c.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild3932-6136-4335-a661-633331323334/-/empty/image.png
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild3932-6136-4335-a661-633331323334\-\empty\image.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild3964-6365-4430-b665-633938363437/-/resizeb/20x/closed-lock-with-key.png
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild3964-6365-4430-b665-633938363437\-\resizeb\20x\closed-lock-with-key.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild3964-6638-4331-b833-646330643665/-/resizeb/20x/2021-06-01_235620.png
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild3964-6638-4331-b833-646330643665\-\resizeb\20x\2021-06-01_235620.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild6137-6232-4438-a638-613133623864/Heart.svg
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild6137-6232-4438-a638-613133623864\Heart.svg
+Content Type: image/svg+xml
+
+Uri: https://static.tildacdn.com/tild6166-3237-4361-b838-653736663962/32.ico
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild6166-3237-4361-b838-653736663962\32.ico
+Content Type: image/vnd.microsoft.icon
+
+Uri: https://static.tildacdn.com/tild6266-3862-4665-a339-313332343962/Frame_1_2.svg
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild6266-3862-4665-a339-313332343962\Frame_1_2.svg
+Content Type: image/svg+xml
+
+Uri: https://static.tildacdn.com/tild6338-3838-4332-a432-636638653931/-/resizeb/20x/Frame_1_8.png
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild6338-3838-4332-a432-636638653931\-\resizeb\20x\Frame_1_8.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild6338-3930-4631-a661-393535643765/-/resizeb/20x/smiling-face-with-ha.png
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild6338-3930-4631-a661-393535643765\-\resizeb\20x\smiling-face-with-ha.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild6365-3965-4239-a134-363564383138/-/resizeb/20x/2021-05-03_1954.png
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild6365-3965-4239-a134-363564383138\-\resizeb\20x\2021-05-03_1954.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild6365-6261-4036-b734-393138373962/-/resizeb/20x/16525394.png
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild6365-6261-4036-b734-393138373962\-\resizeb\20x\16525394.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild6431-3365-4531-a464-363134623566/-/resizeb/20x/2021-05-12_230452.png
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild6431-3365-4531-a464-363134623566\-\resizeb\20x\2021-05-12_230452.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild6439-3935-4161-b334-306133653935/Document.svg
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild6439-3935-4161-b334-306133653935\Document.svg
+Content Type: image/svg+xml
+
+Uri: https://static.tildacdn.com/tild6532-3766-4336-a133-633437323738/-/resizeb/20x/2021-05-12_230534.png
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild6532-3766-4336-a133-633437323738\-\resizeb\20x\2021-05-12_230534.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild6563-3337-4562-b932-643936663832/-/resizeb/20x/2021-05-03_1954_1.png
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild6563-3337-4562-b932-643936663832\-\resizeb\20x\2021-05-03_1954_1.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild6630-6536-4463-b363-366631386165/-/resizeb/20x/noroot.png
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild6630-6536-4463-b363-366631386165\-\resizeb\20x\noroot.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild6633-6239-4465-a265-303136623063/3_User.svg
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild6633-6239-4465-a265-303136623063\3_User.svg
+Content Type: image/svg+xml
+
+Uri: https://static.tildacdn.com/tild6663-3133-4635-b138-366633633939/Frame_1_2.svg
+File Name: C:\Users\Timofey\Desktop\Новая папка\VseYadCraft.net\tild6663-3133-4635-b138-366633633939\Frame_1_2.svg
+Content Type: image/svg+xml
+
