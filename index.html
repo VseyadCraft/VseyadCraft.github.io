@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VseyadCraft | Automation & Media Pipeline Engineer</title>
+  <meta name="description" content="Portfolio of VseyadCraft: Automation & Media Pipeline Engineer specializing in Apple Silicon hardware acceleration, autonomous bots, and native OS integrations.">
+  <meta name="theme-color" content="#101010">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #101010;
+      --card-bg: #18181b;
+      --card-hover: #1f1f23;
+      --card-border: rgba(255, 255, 255, 0.08);
+      --card-border-hover: rgba(255, 199, 153, 0.35);
+      --accent: #FFC799;
+      --accent-glow: rgba(255, 199, 153, 0.15);
+      --accent-subtle: #ffd9b8;
+      --text: #f4f4f5;
+      --text-muted: #a1a1aa;
+      --code-bg: #121214;
+      --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --font-mono: 'JetBrains Mono', SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: var(--font-sans);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+      min-height: 100vh;
+    }
+
+    /* Ambient background gradient glow */
+    .ambient-glow {
+      position: fixed;
+      top: -200px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 800px;
+      height: 500px;
+      background: radial-gradient(circle, rgba(255, 199, 153, 0.08) 0%, rgba(16, 16, 16, 0) 70%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 24px;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Header & Nav */
+    header {
+      padding: 32px 0;
+      border-bottom: 1px solid var(--card-border);
+    }
+
+    .nav-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-family: var(--font-mono);
+      font-weight: 700;
+      font-size: 1.15rem;
+      color: var(--accent);
+      text-decoration: none;
+      letter-spacing: -0.5px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .logo-badge {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background-color: #22c55e;
+      border-radius: 50%;
+      box-shadow: 0 0 10px #22c55e;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .nav-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: color 0.2s ease;
+    }
+
+    .nav-links a:hover {
+      color: var(--accent);
+    }
+
+    /* Hero Section */
+    .hero {
+      padding: 90px 0 70px;
+      text-align: center;
+    }
+
+    .status-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 199, 153, 0.08);
+      border: 1px solid rgba(255, 199, 153, 0.2);
+      padding: 6px 16px;
+      border-radius: 999px;
+      font-family: var(--font-mono);
+      font-size: 0.82rem;
+      color: var(--accent);
+      margin-bottom: 24px;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.5rem, 5vw, 3.75rem);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.15;
+      margin-bottom: 20px;
+      color: #fff;
+    }
+
+    .hero h1 span.gradient-text {
+      background: linear-gradient(135deg, #fff 30%, var(--accent) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-subtitle {
+      font-size: 1.25rem;
+      color: var(--text-muted);
+      max-width: 680px;
+      margin: 0 auto 36px;
+      font-weight: 400;
+    }
+
+    .hero-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 13px 26px;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+
+    .btn-primary {
+      background-color: var(--accent);
+      color: #101010;
+      box-shadow: 0 4px 20px var(--accent-glow);
+    }
+
+    .btn-primary:hover {
+      background-color: var(--accent-subtle);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 25px rgba(255, 199, 153, 0.3);
+    }
+
+    .btn-secondary {
+      background-color: var(--card-bg);
+      color: var(--text);
+      border: 1px solid var(--card-border);
+    }
+
+    .btn-secondary:hover {
+      background-color: var(--card-hover);
+      border-color: var(--card-border-hover);
+      transform: translateY(-2px);
+    }
+
+    /* Metrics Section */
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin-bottom: 80px;
+    }
+
+    .metric-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      padding: 30px 24px;
+      transition: all 0.25s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .metric-card:hover {
+      border-color: var(--card-border-hover);
+      transform: translateY(-3px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+    }
+
+    .metric-value {
+      font-family: var(--font-mono);
+      font-size: 2.75rem;
+      font-weight: 700;
+      color: var(--accent);
+      line-height: 1;
+      margin-bottom: 12px;
+    }
+
+    .metric-label {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 6px;
+    }
+
+    .metric-desc {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    /* Section Headers */
+    .section-header {
+      margin-bottom: 36px;
+    }
+
+    .section-tag {
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 8px;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: -0.02em;
+    }
+
+    /* Projects Grid */
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
+      gap: 24px;
+      margin-bottom: 80px;
+    }
+
+    @media (max-width: 600px) {
+      .projects {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .project-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 32px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.25s ease;
+      position: relative;
+    }
+
+    .project-card:hover {
+      border-color: var(--card-border-hover);
+      transform: translateY(-4px);
+      box-shadow: 0 14px 40px rgba(0, 0, 0, 0.4);
+    }
+
+    .project-top {
+      margin-bottom: 24px;
+    }
+
+    .project-badge {
+      display: inline-block;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--accent);
+      background: rgba(255, 199, 153, 0.1);
+      border: 1px solid rgba(255, 199, 153, 0.25);
+      padding: 4px 10px;
+      border-radius: 6px;
+      margin-bottom: 16px;
+    }
+
+    .project-title {
+      font-size: 1.45rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .project-desc {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .project-highlights {
+      list-style: none;
+      margin-bottom: 24px;
+    }
+
+    .project-highlights li {
+      position: relative;
+      padding-left: 20px;
+      margin-bottom: 8px;
+      font-size: 0.9rem;
+      color: #d4d4d8;
+    }
+
+    .project-highlights li::before {
+      content: "▹";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-size: 0.9rem;
+    }
+
+    .tech-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 24px;
+    }
+
+    .tech-tag {
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      background: var(--code-bg);
+      border: 1px solid var(--card-border);
+      color: #d4d4d8;
+      padding: 4px 10px;
+      border-radius: 6px;
+    }
+
+    .project-links {
+      display: flex;
+      gap: 12px;
+    }
+
+    .project-link-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--accent);
+      text-decoration: none;
+      transition: gap 0.2s ease;
+    }
+
+    .project-link-btn:hover {
+      gap: 12px;
+      color: #fff;
+    }
+
+    /* Stack & Architecture Section */
+    .stack-section {
+      margin-bottom: 80px;
+    }
+
+    .stack-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 18px;
+    }
+
+    .stack-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 24px;
+      transition: all 0.2s ease;
+    }
+
+    .stack-card:hover {
+      border-color: rgba(255, 199, 153, 0.25);
+    }
+
+    .stack-group-title {
+      font-family: var(--font-mono);
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .stack-items {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .stack-item {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .stack-item strong {
+      color: #e4e4e7;
+      font-weight: 500;
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--card-border);
+      padding: 40px 0 60px;
+      text-align: center;
+    }
+
+    .footer-inner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .footer-text {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 20px;
+    }
+
+    .footer-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: color 0.2s ease;
+    }
+
+    .footer-links a:hover {
+      color: var(--accent);
+    }
+
+    /* SVG Icons */
+    .icon {
+      width: 18px;
+      height: 18px;
+      fill: currentColor;
+    }
+  </style>
+</head>
+<body>
+  <div class="ambient-glow"></div>
+
+  <div class="container">
+    <header>
+      <div class="nav-inner">
+        <a href="#" class="logo">
+          <span class="logo-badge"></span>
+          VseyadCraft
+        </a>
+        <nav class="nav-links">
+          <a href="#projects">Projects</a>
+          <a href="#metrics">Performance</a>
+          <a href="#stack">Stack</a>
+          <a href="https://github.com/VseyadCraft" target="_blank" rel="noopener">GitHub</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero">
+        <div class="status-pill">
+          ⚡ Apple Silicon VideoToolbox • Swift Vision OCR • Zero-Touch Daemon
+        </div>
+        <h1>
+          <span class="gradient-text">VseyadCraft</span><br>
+          Automation & Media Pipeline Engineer
+        </h1>
+        <p class="hero-subtitle">
+          Engineering high-throughput vertical video rendering engines, autonomous operational publishing bots, and resilient Apple Silicon & Linux workflows.
+        </p>
+        <div class="hero-buttons">
+          <a href="https://github.com/VseyadCraft" target="_blank" rel="noopener" class="btn btn-primary">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            GitHub Profile
+          </a>
+          <a href="#projects" class="btn btn-secondary">
+            View Showcase →
+          </a>
+        </div>
+      </section>
+
+      <!-- Key Metrics -->
+      <section id="metrics" class="metrics">
+        <div class="metric-card">
+          <div class="metric-value">&lt; 30s</div>
+          <div class="metric-label">Local Render Time</div>
+          <div class="metric-desc">Multi-pass 1080p/4K Shorts generation using native Apple Silicon <code>h264_videotoolbox</code> hardware acceleration.</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-value">$0.00</div>
+          <div class="metric-label">Cloud GPU Costs</div>
+          <div class="metric-desc">Zero expensive external GPU subscriptions. 100% of encoding, OCR, and composition runs locally on Apple Silicon Unified Memory.</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-value">100%</div>
+          <div class="metric-label">Zero-Touch Automation</div>
+          <div class="metric-desc">Autonomous queue handling, anti-ban jitter intervals, Swift Vision OCR hooks extraction, and self-healing token lifecycle.</div>
+        </div>
+      </section>
+
+      <!-- Projects Showcase -->
+      <section id="projects">
+        <div class="section-header">
+          <div class="section-tag">Featured Architectures</div>
+          <h2 class="section-title">Core Production Engines</h2>
+        </div>
+
+        <div class="projects">
+          <!-- shorts-conveyor -->
+          <div class="project-card">
+            <div class="project-top">
+              <span class="project-badge">Media Pipeline • Apple Silicon</span>
+              <h3 class="project-title">🎬 shorts-conveyor</h3>
+              <p class="project-desc">
+                High-throughput, hardware-accelerated vertical video rendering engine. Transforms scripts into fully edited, retention-optimized Shorts in seconds.
+              </p>
+              <ul class="project-highlights">
+                <li>Native Apple Silicon hardware encoding via <code>h264_videotoolbox</code>.</li>
+                <li>Micro-timed karaoke subtitles from <code>EdgeTTS</code> with dynamic colored badges for high-engagement shock words.</li>
+                <li>Dynamic Ken Burns camera motion on background visuals and mastered audio dynamics (<code>amix</code> + <code>compand</code> + risers).</li>
+                <li>Protected FFmpeg pipe buffer deadlocks with automatic intermediate artifact lifecycle cleanup.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tech-tag">Python 3.11</span>
+                <span class="tech-tag">FFmpeg VideoToolbox</span>
+                <span class="tech-tag">EdgeTTS</span>
+                <span class="tech-tag">Pillow</span>
+                <span class="tech-tag">macOS arm64</span>
+              </div>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/VseyadCraft/shorts-conveyor" target="_blank" rel="noopener" class="project-link-btn">
+                View Source Repository <span>→</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- youtube-uploader -->
+          <div class="project-card">
+            <div class="project-top">
+              <span class="project-badge">Autonomous Daemon • Bot</span>
+              <h3 class="project-title">📤 youtube-uploader</h3>
+              <p class="project-desc">
+                Production-grade autonomous publishing daemon with anti-spam heuristics, computer vision OCR, and real-time dashboard analytics.
+              </p>
+              <ul class="project-highlights">
+                <li>On-device OCR hook extraction from video frames using native Swift Apple Vision API.</li>
+                <li>Resumable chunked upload protocol with exponential backoff on network dropouts.</li>
+                <li>Organic publication pacing: ~2.5h intervals with randomized jitter to maximize YouTube algorithm seed pools.</li>
+                <li>Real-time dark-mode HTML desktop monitoring dashboard and macOS system notifications.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tech-tag">Python 3.11</span>
+                <span class="tech-tag">YouTube Data API v3</span>
+                <span class="tech-tag">Swift Vision OCR</span>
+                <span class="tech-tag">macOS launchd</span>
+                <span class="tech-tag">JSON Store</span>
+              </div>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/VseyadCraft/youtube-uploader" target="_blank" rel="noopener" class="project-link-btn">
+                View Source Repository <span>→</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Stack & Infrastructure -->
+      <section id="stack" class="stack-section">
+        <div class="section-header">
+          <div class="section-tag">Ecosystem & Tooling</div>
+          <h2 class="section-title">Technical Competencies</h2>
+        </div>
+
+        <div class="stack-grid">
+          <div class="stack-card">
+            <div class="stack-group-title">⚡ Languages & Runtimes</div>
+            <div class="stack-items">
+              <div class="stack-item"><strong>Python 3.11:</strong> Asyncio, Subprocess, Requests</div>
+              <div class="stack-item"><strong>Swift:</strong> Apple Vision API, Native OCR</div>
+              <div class="stack-item"><strong>Shell:</strong> Bash, Zsh, Pipeline scripting</div>
+              <div class="stack-item"><strong>Frontend:</strong> Modern HTML5, Responsive CSS3</div>
+            </div>
+          </div>
+
+          <div class="stack-card">
+            <div class="stack-group-title">🎬 Media & Acceleration</div>
+            <div class="stack-items">
+              <div class="stack-item"><strong>FFmpeg:</strong> VideoToolbox hardware encoder</div>
+              <div class="stack-item"><strong>EdgeTTS:</strong> Neural voice synthesis & word offsets</div>
+              <div class="stack-item"><strong>Pillow (PIL):</strong> Programmatic frame rendering</div>
+              <div class="stack-item"><strong>Audio Mastering:</strong> amix, compand, EQ filters</div>
+            </div>
+          </div>
+
+          <div class="stack-card">
+            <div class="stack-group-title">🤖 Infrastructure & OS</div>
+            <div class="stack-items">
+              <div class="stack-item"><strong>macOS Apple Silicon:</strong> launchd, caffeinate</div>
+              <div class="stack-item"><strong>Linux:</strong> Arch Linux / SteamOS userland automation</div>
+              <div class="stack-item"><strong>Mobile:</strong> Android ADB, Xiaomi HyperOS debugging</div>
+              <div class="stack-item"><strong>Git & CI:</strong> Zero-Touch Git automation, Semantic commits</div>
+            </div>
+          </div>
+
+          <div class="stack-card">
+            <div class="stack-group-title">🔌 APIs & Cloud Services</div>
+            <div class="stack-items">
+              <div class="stack-item"><strong>YouTube Data API v3:</strong> Chunked resumable uploads</div>
+              <div class="stack-item"><strong>OAuth 2.0:</strong> Headless token refresh flows</div>
+              <div class="stack-item"><strong>GitHub Pages:</strong> Automated portfolio deployment</div>
+              <div class="stack-item"><strong>AI Agents:</strong> Multi-agent autonomous pair programming</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-inner">
+        <p class="footer-text">
+          VseyadCraft &bull; Automation & Media Pipeline Engineering &bull; 2026
+        </p>
+        <div class="footer-links">
+          <a href="https://github.com/VseyadCraft" target="_blank" rel="noopener">GitHub Profile</a>
+          <a href="https://github.com/VseyadCraft/shorts-conveyor" target="_blank" rel="noopener">shorts-conveyor</a>
+          <a href="https://github.com/VseyadCraft/youtube-uploader" target="_blank" rel="noopener">youtube-uploader</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
